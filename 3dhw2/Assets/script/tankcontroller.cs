@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
  
 public class tankcontroller : MonoBehaviour
 {
@@ -80,5 +81,10 @@ public class tankcontroller : MonoBehaviour
             transform.Rotate(new Vector3(0f, flag*rotateSpeed*Time.deltaTime, 0f));
  
         }
+    }
+    public void Replay()
+    {
+        SceneManager.LoadScene(0);
+
     }
 }

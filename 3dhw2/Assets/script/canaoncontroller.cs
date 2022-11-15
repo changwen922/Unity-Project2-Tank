@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class canaoncontroller : MonoBehaviour
 {
-    public float turnSpeed=40;
+    public float turnSpeed=20;
     // Use this for initialization
     void Start()
     {
