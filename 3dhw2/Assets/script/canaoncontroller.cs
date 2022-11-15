@@ -15,7 +15,7 @@ public class canaoncontroller : MonoBehaviour
     void Update()
     {
         Rotate();
-        ClampRot(-30,30);
+        ClampRot(-30,30, -15, 0);
     }
 
     void Rotate()
@@ -28,6 +28,14 @@ public class canaoncontroller : MonoBehaviour
         {
             transform.Rotate(0, turnSpeed * Time.deltaTime,0);
         }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.Rotate(-turnSpeed * Time.deltaTime,0 , 0);
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.Rotate(turnSpeed * Time.deltaTime, 0,0);
+        }
 
     }
 
@@ -36,7 +44,7 @@ public class canaoncontroller : MonoBehaviour
     /// <summary>
     /// 限制倾斜角度
     /// </summary>
-    void ClampRot(float minZ,float maxZ)
+    void ClampRot(float minZ,float maxZ,float minX,float maxX)
     {
         v3 = transform.localEulerAngles;
 
@@ -47,6 +55,14 @@ public class canaoncontroller : MonoBehaviour
         else if (transform.localEulerAngles.y > 350+ minZ && transform.localEulerAngles.y < 360+ minZ)
         {
             v3.y = 360 + minZ;
+        }
+        else if (transform.localEulerAngles.x > 350+ minX && transform.localEulerAngles.x < 360+ minX)
+        {
+            v3.x = 360 + minX;
+        }
+        else if (transform.localEulerAngles.x > maxX && transform.localEulerAngles.x <= maxX+10)
+        {
+            v3.x = maxX;
         }
         transform.localEulerAngles = v3;
     }

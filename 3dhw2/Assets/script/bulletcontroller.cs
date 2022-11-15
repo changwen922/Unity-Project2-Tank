@@ -17,11 +17,15 @@ public class bulletcontroller : MonoBehaviour
     {
         this.transform.Translate(new Vector3(0, 0, speed));
     }
+   
     private void OnCollisionEnter(Collision collision) {
+       
        if (collision.gameObject.tag == "Target") {
            Destroy(this.gameObject);
            Destroy(collision.gameObject);
-       }
+           tankcontroller.enemyleft--;
+        }
     }
 
+    
 }

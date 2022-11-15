@@ -7,17 +7,29 @@ public class tankcontroller : MonoBehaviour
     public GameObject LeftTrack;
     //坦克右边的履带
     public GameObject RightTrack;
- 
+    public static int enemyleft = 5;
+    public GameObject MissionCompleted;
     
-    public float trackSpeed = 2f;
-    public float rotateSpeed = 2f;
-    public float moveSpeed = 2f;
+    public float trackSpeed = 50f;
+    public float rotateSpeed = 50f;
+    public float moveSpeed = 50f;
     public int flag = 1;
- 
+    
+    void Start()
+    {
+        //隐藏任务完成提示
+        MissionCompleted.SetActive(false);
+       
+        enemyleft = 5;
+    }
     private void Update()
     {
         flag = 1;
         //坦克向前移动
+        if (enemyleft==0 )
+        {
+            MissionCompleted.SetActive(true);
+        }
         if (Input.GetKey(KeyCode.W))
         {
  
