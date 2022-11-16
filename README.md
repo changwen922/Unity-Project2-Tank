@@ -11,7 +11,7 @@ WASD控制坦克移動方向，上下左右鍵控制坦克炮管角度，空白�
 MissionComplete PNG：https://github.com/starhoshi/mission-completed
 GameOver PNG：https://www.pngegg.com/en/png-fzcyd
 
-*模型說明
+* 模型說明
 3D gameobject組合的物體: 敵人（機器人）
 import的mesh:  坦克車
 terrain：素材為lab課資源
