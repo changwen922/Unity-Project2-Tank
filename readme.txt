@@ -1,11 +1,23 @@
-3D22 Assignment2111753513±i¶²¶v* ¹CÀ¸¾Ş§@ WASD±±¨î©Z§J²¾°Ê¤è¦V¡A¤W¤U¥ª¥kÁä±±¨î©Z§J¬¶ºŞ¨¤«×¡AªÅ¥ÕÁäµo®g¤lå¸¡C* ¹CÀ¸¾÷¨î¦b®É¶¡­­¨î¤U¡]¤@¤ÀÄÁ¡^¦¨¥\À»±ş¥ş³¡ªº¾÷¾¹¤H¡A®É¶¡¨ìÁÙ¥¼§¹¥şÀ»±ş«h¹CÀ¸¥¢±Ñ¡C* ¹CÀ¸¯À§÷ªOÅv»¡©ú©Z§J¡Ghttps://assetstore.unity.com/packages/3d/vehicles/land/tank-3d-model-225955
-MissionComplete PNG¡Ghttps://github.com/starhoshi/mission-completedGameOver PNG¡Ghttps://www.pngegg.com/en/png-fzcyd
+3D22 Assignment2
+111753513å¼µé›¯éˆ
+* éŠæˆ²æ“ä½œ 
+WASDæ§åˆ¶å¦å…‹ç§»å‹•æ–¹å‘ï¼Œä¸Šä¸‹å·¦å³éµæ§åˆ¶å¦å…‹ç‚®ç®¡è§’åº¦ï¼Œç©ºç™½éµç™¼å°„å­æ’£ã€‚
 
-*¼Ò«¬»¡©ú
-3D gameobject²Õ¦Xªºª«Åé: ¼Ä¤H¡]¾÷¾¹¤H¡^
-importªºmesh:  ©Z§J¨®
-terrain¡G¯À§÷¬°lab½Ò¸ê·½
-* »¡©ú¯S¦â©ÎÃB¥~¥\¯à
-©Z§J¬¶ºŞ¨¤«×­­¨î
-¼Ä¤H¡]¾÷¾¹¤H¡^¨Ó¦^²¾°Ê¡A¼W¥[ºË·ÇÃø«×
-Terrain¼W¥[³õ´ºÂ×´I«×
+* éŠæˆ²æ©Ÿåˆ¶
+åœ¨æ™‚é–“é™åˆ¶ä¸‹ï¼ˆä¸€åˆ†é˜ï¼‰æˆåŠŸæ“Šæ®ºå…¨éƒ¨çš„æ©Ÿå™¨äººï¼Œæ™‚é–“åˆ°é‚„æœªå®Œå…¨æ“Šæ®ºå‰‡éŠæˆ²å¤±æ•—ã€‚
+
+* éŠæˆ²ç´ ææ¿æ¬Šèªªæ˜
+å¦å…‹ï¼šhttps://assetstore.unity.com/packages/3d/vehicles/land/tank-3d-model-225955
+MissionComplete PNGï¼šhttps://github.com/starhoshi/mission-completed
+GameOver PNGï¼šhttps://www.pngegg.com/en/png-fzcyd
+
+* æ¨¡å‹èªªæ˜
+3D gameobjectçµ„åˆçš„ç‰©é«”: æ•µäººï¼ˆæ©Ÿå™¨äººï¼‰
+importçš„mesh:  å¦å…‹è»Š
+terrainï¼šç´ æç‚ºlabèª²è³‡æº
+
+* èªªæ˜ç‰¹è‰²æˆ–é¡å¤–åŠŸèƒ½
+å¦å…‹ç‚®ç®¡è§’åº¦é™åˆ¶
+æ•µäººï¼ˆæ©Ÿå™¨äººï¼‰ä¾†å›ç§»å‹•ï¼Œå¢åŠ ç„æº–é›£åº¦
+Terrainå¢åŠ å ´æ™¯è±å¯Œåº¦
+
