@@ -21,7 +21,7 @@ public class canoncontrol : MonoBehaviour
 		
 		if( !targetfound ){
 			if( linearcount < 200 && forward ){
-				transform.Translate(transform.forward*0.125f,Space.World);
+				transform.Translate(transform.forward*1f,Space.World);
 				linearcount ++;
 			}
 	

@@ -11,9 +11,9 @@ public class tankcontroller : MonoBehaviour
     public static int enemyleft = 5;
     public GameObject MissionCompleted;
     
-    public float trackSpeed = 50f;
-    public float rotateSpeed = 50f;
-    public float moveSpeed = 50f;
+    public float trackSpeed = 30f;
+    public float rotateSpeed = 30f;
+    public float moveSpeed = 30f;
     public int flag = 1;
     
     void Start()

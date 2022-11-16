@@ -1193,9 +1193,9 @@ MonoBehaviour:
   LeftTrack: {fileID: 1024114945}
   RightTrack: {fileID: 1770307478}
   MissionCompleted: {fileID: 817892222}
-  trackSpeed: 50
-  rotateSpeed: 50
-  moveSpeed: 50
+  trackSpeed: 30
+  rotateSpeed: 30
+  moveSpeed: 30
   flag: 1
 --- !u!54 &454366301
 Rigidbody:
