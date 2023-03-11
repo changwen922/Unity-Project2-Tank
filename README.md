@@ -23,4 +23,5 @@ Terrain增加場景豐富度
 * 註：unity檔打開後調成「FULL HD(1920*1080)」
 
 * 遊戲畫面
+<img width="624" alt="截圖 2023-03-11 下午8 02 26" src="https://user-images.githubusercontent.com/115797843/224483281-5e880ac4-dae4-4c1d-ad96-2aad2066076c.png">
 
